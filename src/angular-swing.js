@@ -37,6 +37,7 @@ var Swing = require('swing');
         return {
             restrict: 'A',
             controller: /* @ngInject */ function ($scope, $element, $attrs) {
+                'ngInject';
                 var stack,
                     defaultOptions = {};
 
